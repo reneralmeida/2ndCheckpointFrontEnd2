@@ -1,0 +1,172 @@
+* {
+  font-family: 'Kreon', serif;
+}
+
+html {
+  background: url("../img/img3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #cccccc;
+  margin: 30px 20px;
+  height: 250px;
+  width: 445px;
+  margin-top: 7rem;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 1), inset 3px 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+label {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paragraph {
+  padding: 2px 2px 2px 2px;
+  width: 200px;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+p {
+  padding: 5px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  margin: 8px;
+  border: none;
+  background-color: #cccccc;
+  padding: 14px 28px;
+  border: 5px outset;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  border: none;
+  background-color: #cccccc;
+  padding: 14px 28px;
+  border: 5px outset #cccccc;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.label1 {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#descricao {
+  border: 5px outset;
+  border-radius: 10px;
+  border-radius: 10px;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datas {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dataCriacao {
+  border: 3px outset;
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+#dataLimite {
+  border: 3px outset;
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+.getButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+  padding: auto;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+
+.removeBtn {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: outset;
+  font-size: 1rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
