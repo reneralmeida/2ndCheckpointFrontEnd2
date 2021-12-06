@@ -24,13 +24,15 @@ function fetching() {
         .then(t => t.json())
         .then(t => {
             for (campo in t) {
-                if (t[campo].completed) {
+                if (t[campo].image) {
                     cardSection.insertAdjacentHTML('beforeend',
                         `<div class=iframe-container>
-                        <p>${Object.keys(t[campo])[0]}: ${t[campo].userId}</p>
-                        <p><strong>${Object.keys(t[campo])[1]}: ${t[campo].id}</strong></p>
-                        <p><s>${Object.keys(t[campo])[2]}: ${t[campo].title}</s></p>
-                        <p>${Object.keys(t[campo])[3]}: ${t[campo].completed}</p>
+                        <p>${Object.keys(t[campo])[0]}: ${t[campo].id}</p>
+                        <p><strong>${Object.keys(t[campo])[1]}: ${t[campo].title}</strong></p>
+                        <p><s>${Object.keys(t[campo])[2]}: ${t[campo].price}</s></p>
+                        <p>${Object.keys(t[campo])[3]}: ${t[campo].category}</p>
+                        <p>${Object.keys(t[campo])[3]}: ${t[campo].description}</p>
+                        <p>${Object.keys(t[campo])[3]}: ${t[campo].image}</p>
                         </div>`
                     )
                 } else {
